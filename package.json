@@ -1,0 +1,29 @@
+{
+  "name": "4pm-cli",
+  "version": "0.0.1",
+  "description": "4pm CLI - make your boss happy... automate your reports.",
+  "main": "lib/4pm-cli.js",
+  "dependencies": {
+    "nightmarejs": "^0.0.1",
+    "nightmare": "^1.8.2",
+    "nconf": "^0.7.2",
+    "optimist": "^0.6.1",
+    "phantom": "^0.7.2",
+    "phantomjs": "^1.9.18",
+    "prompt": "^0.2.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jure Polutnik <jure.polutnik@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurepolutnik/4pm-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jurepolutnik/4pm-cli/issues"
+  },
+  "homepage": "https://github.com/jurepolutnik/4pm-cli#readme"
+}

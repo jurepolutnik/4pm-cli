@@ -1,8 +1,9 @@
 {
   "name": "4pm-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "4pm CLI - make your boss happy... automate your reports.",
-  "main": "lib/4pm-cli.js",
+  "main": ".lib/4pm-cli.js",
+  "bin":{"4pm":"./lib/4pm-cli.js"},
   "dependencies": {
     "nightmarejs": "^0.0.1",
     "nightmare": "^1.8.2",

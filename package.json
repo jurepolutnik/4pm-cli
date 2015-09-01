@@ -1,6 +1,6 @@
 {
   "name": "4pm-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "4pm CLI - make your boss happy... automate your reports.",
   "main": ".lib/4pm-cli.js",
   "bin":{"4pm":"./lib/4pm-cli.js"},

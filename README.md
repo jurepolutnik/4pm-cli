@@ -21,7 +21,7 @@ npm install -g 4pm-cli
 
 Usage
 ---------------------------
-* There is no senity checks, so if you are stupid, the thing can blow-up your computer. 
+* There are no sanity checks, so if you are stupid, the thing can blow-up your computer. 
 * Or at least you can end up with strange reports in 4pm (you have been warned).
 
 To run this utility, simply type (and follow steps)

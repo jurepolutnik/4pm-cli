@@ -75,7 +75,7 @@ where conf file is  (behold the %today% placeholder)
 
 ```
 {
-  "website": "https://xlab.4pm.si/",
+  "website": "<4pm login site>",
   "username": "<me>",
   "password": "<passing>",
 

@@ -3,7 +3,7 @@
 
 About
 ---------------------------
-Automate your 4pm reports http://www.4pm.si/. 
+Use terminal to enter your 4pm reports http://www.4pm.si/. 
 
 Using Phantom headless web-browser (http://phantomjs.org/) to simulate user behaviour, from login to entering daily work reports.
 
@@ -24,7 +24,7 @@ Usage
 * There are no sanity checks, so if you are stupid, the thing can blow-up your computer. 
 * Or at least you can end up with strange reports in 4pm (you have been warned).
 
-To run this utility, simply type (and follow steps)
+To run this utility, simply type (and follow steps to enter your report)
 
 ```
 4pm
@@ -42,7 +42,7 @@ or even better
 4pm --conf <conf.json>
 ```
 
-where *conf.json* is
+where *conf.json* is (if property is present, program will not ask you for it)
 
 ```
 {
@@ -62,7 +62,7 @@ where *conf.json* is
 
 ```
 
-So to make your life easier (and make your boss proud), you create a cron job
+So to make your life easier (only for brave ones...), you create a cron job
 
 ```
 crontab -e

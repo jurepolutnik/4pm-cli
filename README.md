@@ -27,16 +27,34 @@ Usage
 To run this utility, simply type (and follow steps to enter your report)
 
 ```
-4pm
+$ 4pm
+
+[4PM-CLI] Enter 4pm url: <url>
+[4PM-CLI] Enter username: <me>
+[4PM-CLI] Enter password: <passing>
+
+
+* Logged in as Me AllMighty
+
+0) Project 1
+1) Project 2
+[4PM-CLI] Choose project: 0
+
+0) Task 1
+1) Task 2
+[4PM-CLI] Choose task: 1
+
+... (and so on) ...
+
 ```
 
-or if you are a bit smarter
+or if you are a bit smarter (use arguments or env variables)
 
 ```
 4pm --username <name> --password <pass>
 ```
 
-or even better
+or even better (use conf file)
 
 ```
 4pm --conf <conf.json>
@@ -62,7 +80,7 @@ where *conf.json* is (if property is present, program will not ask you for it)
 
 ```
 
-So to make your life easier (only for brave ones...), you create a cron job
+So to make your life easier (only for brave ones -- not recomnended!), you create a cron job
 
 ```
 crontab -e
